@@ -47,20 +47,12 @@ class ViewController: UIViewController {
             addToResult(value: "(")
         }
     }
-    @IBAction func percentage(_ sender: Any) {
-        addToResult(value: "%")
-    }
-    @IBAction func division(_ sender: Any) {
-        addToResult(value: "/")
-    }
-    @IBAction func multiplication(_ sender: Any) {
-        addToResult(value: "*")
-    }
-    @IBAction func minus(_ sender: Any) {
-        addToResult(value: "-")
-    }
-    @IBAction func plus(_ sender: Any) {
-        addToResult(value: "+")
+    @IBAction func symbols(_ sender: UIButton) {
+        if(sender.currentTitle == "X") {
+            addToResult(value: "*")
+        } else {
+            addToResult(value: sender.currentTitle!)
+        }
     }
     @IBAction func equals(_ sender: Any) {
         if(valueInput()){
@@ -75,8 +67,5 @@ class ViewController: UIViewController {
             Result.removeLast()
             ResultScreen.text = Result
         }
-    }
-    @IBAction func comma(_ sender: Any) {
-        addToResult(value: ",")
     }
 }

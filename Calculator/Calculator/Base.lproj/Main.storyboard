@@ -78,26 +78,24 @@
                                                         <rect key="frame" x="188.5" y="0.0" width="91.5" height="131"/>
                                                         <color key="backgroundColor" red="0.90196078431372551" green="0.82352941176470584" blue="0.66666666666666663" alpha="1" colorSpace="calibratedRGB"/>
                                                         <rect key="contentStretch" x="1" y="0.0" width="1" height="1"/>
+                                                        <fontDescription key="fontDescription" type="system" pointSize="40"/>
                                                         <color key="tintColor" red="0.25882352939999997" green="0.01176470588" blue="0.17254901959999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                                        <state key="normal" title="Button"/>
-                                                        <buttonConfiguration key="configuration" style="plain" title="%">
-                                                            <fontDescription key="titleFontDescription" type="system" pointSize="40"/>
-                                                        </buttonConfiguration>
+                                                        <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                                        <state key="normal" title="%"/>
                                                         <connections>
-                                                            <action selector="percentage:" destination="BYZ-38-t0r" eventType="touchUpInside" id="8iZ-4V-TE6"/>
+                                                            <action selector="symbols:" destination="BYZ-38-t0r" eventType="touchUpInside" id="a1b-1i-a0h"/>
                                                         </connections>
                                                     </button>
                                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="kBA-zg-ozz">
                                                         <rect key="frame" x="283" y="0.0" width="91" height="131"/>
                                                         <color key="backgroundColor" red="0.82745098039215681" green="0.41960784313725491" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                                         <rect key="contentStretch" x="1" y="0.0" width="1" height="1"/>
+                                                        <fontDescription key="fontDescription" type="system" pointSize="60"/>
                                                         <color key="tintColor" red="0.25882352941176467" green="0.011764705882352941" blue="0.17254901960784313" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                                        <state key="normal" title="Button"/>
-                                                        <buttonConfiguration key="configuration" style="plain" title="÷">
-                                                            <fontDescription key="titleFontDescription" type="system" pointSize="60"/>
-                                                        </buttonConfiguration>
+                                                        <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                                        <state key="normal" title="÷"/>
                                                         <connections>
-                                                            <action selector="division:" destination="BYZ-38-t0r" eventType="touchUpInside" id="4C6-XV-JVA"/>
+                                                            <action selector="symbols:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Ur2-Np-Ad4"/>
                                                         </connections>
                                                     </button>
                                                 </subviews>
@@ -108,8 +106,10 @@
                                                     <button opaque="NO" tag="1" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="jsv-5U-TPc">
                                                         <rect key="frame" x="0.0" y="0.0" width="91.5" height="131.5"/>
                                                         <color key="backgroundColor" red="0.90196078430000004" green="0.82352941180000006" blue="0.66666666669999997" alpha="1" colorSpace="calibratedRGB"/>
+                                                        <fontDescription key="fontDescription" type="system" pointSize="40"/>
                                                         <color key="tintColor" red="0.25882352939999997" green="0.01176470588" blue="0.17254901959999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                                        <state key="normal" title="Button"/>
+                                                        <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                                        <state key="normal" title="1"/>
                                                         <buttonConfiguration key="configuration" style="plain" title="1">
                                                             <fontDescription key="titleFontDescription" type="system" pointSize="40"/>
                                                         </buttonConfiguration>
@@ -147,13 +147,12 @@
                                                         <rect key="frame" x="283" y="0.0" width="91" height="131.5"/>
                                                         <color key="backgroundColor" red="0.82745098039215681" green="0.41960784313725491" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                                         <rect key="contentStretch" x="1" y="0.0" width="1" height="1"/>
+                                                        <fontDescription key="fontDescription" type="system" pointSize="40"/>
                                                         <color key="tintColor" red="0.25882352939999997" green="0.01176470588" blue="0.17254901959999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                                        <state key="normal" title="Button"/>
-                                                        <buttonConfiguration key="configuration" style="plain" title="X">
-                                                            <fontDescription key="titleFontDescription" type="system" pointSize="40"/>
-                                                        </buttonConfiguration>
+                                                        <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                                        <state key="normal" title="X"/>
                                                         <connections>
-                                                            <action selector="multiplication:" destination="BYZ-38-t0r" eventType="touchUpInside" id="4iU-HU-qdQ"/>
+                                                            <action selector="symbols:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Zet-OR-RFn"/>
                                                         </connections>
                                                     </button>
                                                 </subviews>
@@ -204,13 +203,12 @@
                                                         <rect key="frame" x="283" y="0.0" width="91" height="131"/>
                                                         <color key="backgroundColor" red="0.82745098039215681" green="0.41960784313725491" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                                         <rect key="contentStretch" x="1" y="0.0" width="1" height="1"/>
+                                                        <fontDescription key="fontDescription" type="system" pointSize="60"/>
                                                         <color key="tintColor" red="0.25882352939999997" green="0.01176470588" blue="0.17254901959999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                                        <state key="normal" title="Button"/>
-                                                        <buttonConfiguration key="configuration" style="plain" title="-">
-                                                            <fontDescription key="titleFontDescription" type="system" pointSize="60"/>
-                                                        </buttonConfiguration>
+                                                        <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                                        <state key="normal" title="-"/>
                                                         <connections>
-                                                            <action selector="minus:" destination="BYZ-38-t0r" eventType="touchUpInside" id="cdB-c9-Vvl"/>
+                                                            <action selector="symbols:" destination="BYZ-38-t0r" eventType="touchUpInside" id="E4t-ty-lDc"/>
                                                         </connections>
                                                     </button>
                                                 </subviews>
@@ -261,13 +259,12 @@
                                                         <rect key="frame" x="283" y="0.0" width="91" height="131.5"/>
                                                         <color key="backgroundColor" red="0.82745098039215681" green="0.41960784313725491" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                                         <rect key="contentStretch" x="1" y="0.0" width="1" height="1"/>
+                                                        <fontDescription key="fontDescription" type="system" pointSize="60"/>
                                                         <color key="tintColor" red="0.25882352939999997" green="0.01176470588" blue="0.17254901959999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                                        <state key="normal" title="Button"/>
-                                                        <buttonConfiguration key="configuration" style="plain" title="+">
-                                                            <fontDescription key="titleFontDescription" type="system" pointSize="60"/>
-                                                        </buttonConfiguration>
+                                                        <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                                        <state key="normal" title="+"/>
                                                         <connections>
-                                                            <action selector="plus:" destination="BYZ-38-t0r" eventType="touchUpInside" id="6cr-Me-9fw"/>
+                                                            <action selector="symbols:" destination="BYZ-38-t0r" eventType="touchUpInside" id="q6D-zM-BpV"/>
                                                         </connections>
                                                     </button>
                                                 </subviews>
@@ -292,13 +289,12 @@
                                                         <rect key="frame" x="94.5" y="0.0" width="91" height="131"/>
                                                         <color key="backgroundColor" red="0.90196078431372551" green="0.82352941176470584" blue="0.66666666666666663" alpha="1" colorSpace="calibratedRGB"/>
                                                         <rect key="contentStretch" x="1" y="0.0" width="1" height="1"/>
+                                                        <fontDescription key="fontDescription" type="system" pointSize="40"/>
                                                         <color key="tintColor" red="0.25882352939999997" green="0.01176470588" blue="0.17254901959999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                                        <state key="normal" title="Button"/>
-                                                        <buttonConfiguration key="configuration" style="plain" title=",">
-                                                            <fontDescription key="titleFontDescription" type="system" pointSize="40"/>
-                                                        </buttonConfiguration>
+                                                        <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                                        <state key="normal" title=","/>
                                                         <connections>
-                                                            <action selector="comma:" destination="BYZ-38-t0r" eventType="touchUpInside" id="t7I-jn-yxf"/>
+                                                            <action selector="symbols:" destination="BYZ-38-t0r" eventType="touchUpInside" id="MqK-zX-s2R"/>
                                                         </connections>
                                                     </button>
                                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="N2f-7K-aGT">
